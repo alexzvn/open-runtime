@@ -1,35 +1,72 @@
 [
     {
-        "component": "jre-legacy",
-        "platform": "windows",
-        "arch": "x64",
-        "entry": "jre-legacy\/windows-x64\/jre-legacy\/bin\/java.exe",
-        "hash": "f72ea2af05910a52d2568eebb0672d5a3cb2d674",
-        "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/jre-legacy\/windows-x64.zip",
-        "size": 58488144
-    },{
         "component": "java-runtime-alpha",
+        "version": 16,
+        "platform": "darwin",
+        "arch": null,
+        "entry": "java-runtime-alpha\/darwin-\/java-runtime-alpha\/bin\/java",
+        "hash": "942f8d19766669a0670b120911cbca22e9654091",
+        "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/java-runtime-alpha\/darwin.zip",
+        "size": 76262231
+    },
+    {
+        "component": "java-runtime-alpha",
+        "version": 16,
         "platform": "windows",
         "arch": "x64",
-        "entry": "java-runtime-alpha\/windows-x64\/java-runtime-alpha\/bin\/java.exe",
+        "entry": "java-runtime-alpha\/windows-x64\/java-runtime-alpha\/bin\/java",
         "hash": "b5ab5628f6b5ee604f02d76a6d57f99e121b61bb",
         "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/java-runtime-alpha\/windows-x64.zip",
         "size": 75905029
-    },{
+    },
+    {
         "component": "java-runtime-beta",
+        "version": 17,
+        "platform": "darwin",
+        "arch": null,
+        "entry": "java-runtime-beta\/darwin-\/java-runtime-beta\/bin\/java",
+        "hash": "5b625ffe45805452b76fa74d4b57e5f4f157f0de",
+        "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/java-runtime-beta\/darwin.zip",
+        "size": 71015461
+    },
+    {
+        "component": "java-runtime-beta",
+        "version": 17,
         "platform": "windows",
         "arch": "x64",
-        "entry": "java-runtime-beta\/windows-x64\/java-runtime-beta\/bin\/java.exe",
+        "entry": "java-runtime-beta\/windows-x64\/java-runtime-beta\/bin\/java",
         "hash": "382a82f269dbe34f2c5067daa6cc8bbca11cec62",
         "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/java-runtime-beta\/windows-x64.zip",
         "size": 70597464
-    },{
+    },
+    {
         "component": "java-runtime-gamma",
+        "version": 17,
         "platform": "windows",
         "arch": "x64",
-        "entry": "java-runtime-gamma\/windows-x64\/java-runtime-gamma\/bin\/java.exe",
+        "entry": "java-runtime-gamma\/windows-x64\/java-runtime-gamma\/bin\/java",
         "hash": "857e3d33e91a30610d74280dcc9d0c6ab5fd8889",
         "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/java-runtime-gamma\/windows-x64.zip",
         "size": 70736267
+    },
+    {
+        "component": "jre-legacy",
+        "version": 8,
+        "platform": "darwin",
+        "arch": null,
+        "entry": "jre-legacy\/darwin-\/jre-legacy\/bin\/java",
+        "hash": "45baecf0383e4e0cda752c718d08c33702023ee5",
+        "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/jre-legacy\/darwin.zip",
+        "size": 58754218
+    },
+    {
+        "component": "jre-legacy",
+        "version": 8,
+        "platform": "windows",
+        "arch": "x64",
+        "entry": "jre-legacy\/windows-x64\/jre-legacy\/bin\/java",
+        "hash": "f72ea2af05910a52d2568eebb0672d5a3cb2d674",
+        "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/jre-legacy\/windows-x64.zip",
+        "size": 58488144
     }
 ]
