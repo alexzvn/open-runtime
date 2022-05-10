@@ -15,10 +15,17 @@ function index($filepath)
 
     [, $component, $file] = explode('/', $filepath);
     [$platformArch] = explode('.', $file);
-    $platformArch .= '-';
-    [$platform, $arch] = explode('-', $platformArch);
+    $platformArch = explode('-', $platformArch);
 
-    $entry = join('/', [$component, "$platform-$arch", $component, 'bin', 'java']);
+    $platform = $platformArch[0];
+    $arch = $platformArch[1] ?? null;
+
+    $platformArch = implode('-', $platformArch);
+
+    $entry = match($platform) {
+        'darwin' => join('/', [$component, $platformArch, $component, 'jre.bundle/Contents/Home/bin', 'java']),
+        default =>  join('/', [$component, $platformArch, $component, 'bin', 'java'])
+    };
 
     $version = match($component) {
         'jre-legacy' => 8,
