@@ -37,6 +37,7 @@ function index($filepath)
     return [
         'component' => $component,
         'version' => $version,
+        'platformArch' => $platformArch,
         'platform' => $platform,
         'arch' => $arch ?: null,
         'entry' => $entry,

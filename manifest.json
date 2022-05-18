@@ -2,6 +2,7 @@
     {
         "component": "java-runtime-alpha",
         "version": 16,
+        "platformArch": "darwin",
         "platform": "darwin",
         "arch": null,
         "entry": "java-runtime-alpha\/darwin\/java-runtime-alpha\/jre.bundle\/Contents\/Home\/bin\/java",
@@ -12,6 +13,7 @@
     {
         "component": "java-runtime-alpha",
         "version": 16,
+        "platformArch": "windows-x64",
         "platform": "windows",
         "arch": "x64",
         "entry": "java-runtime-alpha\/windows-x64\/java-runtime-alpha\/bin\/java",
@@ -22,6 +24,7 @@
     {
         "component": "java-runtime-beta",
         "version": 17,
+        "platformArch": "darwin",
         "platform": "darwin",
         "arch": null,
         "entry": "java-runtime-beta\/darwin\/java-runtime-beta\/jre.bundle\/Contents\/Home\/bin\/java",
@@ -32,6 +35,7 @@
     {
         "component": "java-runtime-beta",
         "version": 17,
+        "platformArch": "windows-x64",
         "platform": "windows",
         "arch": "x64",
         "entry": "java-runtime-beta\/windows-x64\/java-runtime-beta\/bin\/java",
@@ -42,6 +46,7 @@
     {
         "component": "java-runtime-gamma",
         "version": 17,
+        "platformArch": "windows-x64",
         "platform": "windows",
         "arch": "x64",
         "entry": "java-runtime-gamma\/windows-x64\/java-runtime-gamma\/bin\/java",
@@ -52,6 +57,7 @@
     {
         "component": "jre-legacy",
         "version": 8,
+        "platformArch": "darwin",
         "platform": "darwin",
         "arch": null,
         "entry": "jre-legacy\/darwin\/jre-legacy\/jre.bundle\/Contents\/Home\/bin\/java",
@@ -62,6 +68,7 @@
     {
         "component": "jre-legacy",
         "version": 8,
+        "platformArch": "windows-x64",
         "platform": "windows",
         "arch": "x64",
         "entry": "jre-legacy\/windows-x64\/jre-legacy\/bin\/java",
