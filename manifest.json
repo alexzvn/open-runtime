@@ -17,9 +17,9 @@
         "platform": "windows",
         "arch": "x64",
         "entry": "java-runtime-alpha\/windows-x64\/java-runtime-alpha\/bin\/java",
-        "hash": "b5ab5628f6b5ee604f02d76a6d57f99e121b61bb",
+        "hash": "3ef0900fed8cf6b95ebcf48e088042873b629a8f",
         "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/java-runtime-alpha\/windows-x64.zip",
-        "size": 75905029
+        "size": 75552606
     },
     {
         "component": "java-runtime-beta",
@@ -72,8 +72,8 @@
         "platform": "windows",
         "arch": "x64",
         "entry": "jre-legacy\/windows-x64\/jre-legacy\/bin\/java",
-        "hash": "f72ea2af05910a52d2568eebb0672d5a3cb2d674",
+        "hash": "380338f322307f6ca4988fcfd1ed8efffe223975",
         "url": "https:\/\/raw.githubusercontent.com\/alexzvn\/open-runtime\/main\/runtime\/jre-legacy\/windows-x64.zip",
-        "size": 58488144
+        "size": 58197036
     }
 ]
